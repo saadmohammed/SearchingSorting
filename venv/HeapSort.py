@@ -41,6 +41,6 @@ def heapSort(arr):
 numbers = [ 20, 14, 10, 5, 16, 70, 44, 39, 21, 41]
 heapSort(numbers)
 n = len(numbers)
-print ("Sorted numbers is")
+print ("Sorted numbers are")
 for i in range(n):
 	print ("%d" %numbers[i], end=" ")
